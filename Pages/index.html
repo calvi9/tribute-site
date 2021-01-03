@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tribute Page</title>
+  <meta name="Tribute Page" content="A tribute">
+  <meta name="Adam">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<style>
+    body {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px auto 100px;
+        grid-template-areas: 
+            "header"
+            "main"
+            "footer";
+    }
+    .navbar {
+        height: 200px;
+        grid-area: header;
+    }
+    .mainarea {
+        grid-area: main;
+        height: 500px;
+        width: 80%;
+        justify-self: center;
+        background-color: grey;
+        opacity: 100%;
+    }
+    .background {
+        width: 100%;
+        position: fixed;
+        opacity: 30%;
+        grid-area: main;
+    }
+   
+</style>
+
+<body>
+    <div class=navbar>
+    </div>
+    <div class="background">
+        <img src="C:\Users\aauch\Desktop\Website Portfolio Material\tribute-site\Images\edinburgh.jpg" class="background">
+    </div>
+    <div class="mainarea">
+
+    </div>
+
+</body>
+</html>
